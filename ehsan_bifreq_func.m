@@ -1,15 +1,15 @@
-%  The ehsan_bifreq_func function extract wavelet based biphase coherency from tow EEG channles .
+%  The ehsan_bifreq_func function extracts wavelet-based biphase coherency from two EEG channels.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % date , 22.08.2023:
-% Inputs: x : first EEG channle data;
-% Inputs: y : second EEG channle data;
-% Inputs: wname : wavelet name;
-% Inputs: scale : the scales for wavelet. see help 'cwt';
-% Outputs: pic: a matrix that contains extracted wavelet based biphase coherencies.
+% Inputs: x : first EEG channel data;
+% Inputs: y : second EEG channel data;
+% Inputs: wname: wavelet name;
+% Inputs: scale: the scales for wavelet. see help 'cwt';
+% Outputs: pic: a matrix that contains extracted wavelet-based biphase coherencies.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   ehsan_bifreq_func Function,Coded by Ehsan
+%   ehsan_bifreq_func Function, Coded by Ehsan
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%example :write this code in command window then see the result variable
+%%Example :write this code in the command window then see the result variable
 % clc;clear;close all;
 % load first EEG channle data in vector x
 % load second EEG channle data in vector y 
